@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#DECDBE"
+    >
+
+
+
+    <EditText
+        android:id="@+id/album_description_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skin Care Category"
+        android:inputType="textMultiLine"
+        android:textColor="#5B2D25"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <ImageView
+        android:id="@+id/moist"
+        android:layout_width="400px"
+        android:layout_height="450px"
+        android:layout_marginLeft="30px"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/moist" />
+    <TextView
+        android:id="@+id/moistText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moisturizer"
+        android:layout_marginLeft="80px"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#5B2D25"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/moist_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:textStyle="bold"
+        app:backgroundTint="#5B2D25"
+
+        android:layout_marginLeft="60px"
+        />
+    <ImageView
+        android:id="@+id/water"
+        android:layout_width="400px"
+        android:layout_height="450px"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="-650px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/water" />
+    <TextView
+        android:id="@+id/waterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Micellar Water"
+        android:layout_marginLeft="610px"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#5B2D25"
+        />
+    <Button
+        android:id="@+id/water_button"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="620px"
+        app:backgroundTint="#5B2D25"
+
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/hyal"
+        android:layout_width="149dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hyal" />
+
+    <TextView
+        android:id="@+id/hylauText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hyaluronic Acids"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#5B2D25"
+        android:layout_marginLeft="25px"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/hylau_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:layout_marginLeft="60px"
+        android:textStyle="bold"
+        app:backgroundTint="#5B2D25"
+        />
+
+    <ImageView
+        android:id="@+id/sunscreen"
+        android:layout_width="134dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="630px"
+        android:layout_marginTop="-570px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sunscreen" />
+
+    <TextView
+        android:id="@+id/cleanserText"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="670px"
+        android:text="Sunscreen"
+
+        android:textAppearance="?android:textAppearanceLarge"
+
+        android:textColor="#5B2D25"
+
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/cleanser_button"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="650px"
+        android:text="Add to cart"
+        android:textStyle="bold"
+        app:backgroundTint="#5B2D25" />
+
+    <Button
+        android:id="@+id/checkout_button"
+        android:layout_width="225dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="250px"
+
+        android:layout_marginTop="20px"
+        android:text="view cart"
+        android:textStyle="bold"
+        app:backgroundTint="#5B2D25" />
+</LinearLayout>
