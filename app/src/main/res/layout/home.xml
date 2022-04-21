@@ -57,7 +57,7 @@
         android:id="@+id/skincaretxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SkinCare"
+        android:text="Skin Care"
         android:textColor="#7C4A42"
         android:textSize="25dp"
         android:textStyle="bold"
