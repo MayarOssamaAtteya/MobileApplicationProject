@@ -3,4 +3,10 @@
     <string name="searchbar">What are you looking for?</string>
     <string name="skin">Skin Care</string>
     <string name="hair">Hair Care</string>
+    <string name="signup">Sign up</string>
+    <string name="user">UserName : </string>
+    <string name="email">Email : </string>
+    <string name="mobilenum">Mobile Number : </string>
+    <string name="pass">Password : </string>
+    <string name="reenter">Re-Enter Password :</string>
 </resources>
