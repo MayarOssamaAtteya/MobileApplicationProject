@@ -2,7 +2,9 @@ package com.example.signup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.afinal.R;
 
@@ -13,4 +15,6 @@ public class signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup);
     }
+
+
 }

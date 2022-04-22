@@ -32,13 +32,13 @@
          android:name="com.example.signup.signup"
             android:exported="false"
             android:label="signup"
-            android:parentActivityName=".MainActivity"
+
             />
         <activity
             android:name="com.example.myapplication.skinCare"
             android:exported="false"
             android:label="skin care"
-            android:parentActivityName=".MainActivity"
+
             />
     </application>
 
