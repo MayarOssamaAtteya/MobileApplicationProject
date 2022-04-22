@@ -1,4 +1,4 @@
-package com.example.signup;
+package com.example.afinal;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

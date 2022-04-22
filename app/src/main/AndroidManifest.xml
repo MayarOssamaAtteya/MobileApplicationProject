@@ -21,18 +21,18 @@
             </intent-filter>
         </activity>
         <activity
-         android:name="com.example.signup.signup"
+         android:name=".signup"
             android:exported="true"
             android:label="signup"
 
             />
         <activity
-            android:name="com.example.myapplication.skincare"
+            android:name=".skincare"
             android:exported="true"
             android:label="skin care"
 
             />
-        <receiver android:name="com.example.signup.AirplaneModeChangeReceiver" android:exported="true">
+        <receiver android:name=".AirplaneModeChangeReceiver" android:exported="true">
             <intent-filter>
                 <action
                     android:name="android.intent.action.AIRPLANE_MODE">

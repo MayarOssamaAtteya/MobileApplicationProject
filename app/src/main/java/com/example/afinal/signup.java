@@ -1,4 +1,4 @@
-package com.example.signup;
+package com.example.afinal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
