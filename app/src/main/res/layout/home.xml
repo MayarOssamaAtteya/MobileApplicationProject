@@ -19,7 +19,7 @@
         android:layout_width="301dp"
         android:layout_height="80dp"
         android:iconifiedByDefault="false"
-        android:queryHint="What are you looking for?"
+        android:queryHint="@string/searchbar"
         tools:layout_editor_absoluteX="6dp" />
     <ImageButton
         android:id="@+id/cartbtn"
@@ -50,7 +50,7 @@
         android:id="@+id/haircaretxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hair Care"
+        android:text="@string/hair"
         android:textColor="#7C4A42"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -76,7 +76,7 @@
         android:id="@+id/skincaretxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Skin Care"
+        android:text="@string/skin"
         android:textColor="#7C4A42"
         android:textSize="25dp"
         android:textStyle="bold"

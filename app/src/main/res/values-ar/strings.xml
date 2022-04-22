@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">الصفحة الرئيسية</string>
+        <string name="searchbar">ماالذي تبحث عنه؟</string>
+        <string name="skin">العناية بالبشرة</string>
+        <string name="hair">العناية بالشعر</string>
+
+</resources>
