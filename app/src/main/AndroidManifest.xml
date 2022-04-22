@@ -9,15 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Final">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+         android:name=".signup"
+            android:exported="true"
+            android:label="signup"
+
+            />
+        <activity
+            android:name=".skincare"
+            android:exported="true"
+            android:label="skin care"
+
+            />
+        <receiver android:name=".AirplaneModeChangeReceiver" android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.AIRPLANE_MODE">
+
+                </action>
+            </intent-filter>
+
+        </receiver>
     </application>
 
 </manifest>
