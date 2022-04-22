@@ -8,29 +8,49 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
     <SearchView
         android:id="@+id/search"
-        android:layout_width="399dp"
+        android:layout_width="301dp"
         android:layout_height="80dp"
         android:iconifiedByDefault="false"
         android:queryHint="What are you looking for?"
         tools:layout_editor_absoluteX="6dp" />
+    <ImageButton
+        android:id="@+id/cartbtn"
+        android:layout_width="64dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#DECDBE"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="622dp"
+        android:layout_marginLeft="40dp"
+
+        />
+</LinearLayout>
 
     <ImageButton
         android:id="@+id/haircareimg"
-        android:layout_width="207dp"
-        android:layout_height="158dp"
-        app:srcCompat="@drawable/haircare"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="349dp"
+        android:layout_width="226dp"
+        android:layout_height="205dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        />
+        app:srcCompat="@drawable/haircare"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+
     <TextView
         android:id="@+id/haircaretxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HairCare"
+        android:text="Hair Care"
         android:textColor="#7C4A42"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -42,14 +62,13 @@
 
     <ImageButton
         android:id="@+id/skincareimg"
-        android:layout_width="207dp"
-        android:layout_height="158dp"
-        app:srcCompat="@drawable/skin"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="100dp"
+        android:layout_width="226dp"
+        android:layout_height="205dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        />
+        app:srcCompat="@drawable/skin"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="100dp" />
 
 
 
@@ -65,49 +84,5 @@
         tools:layout_editor_absoluteY="520dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_marginTop="15dp"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="20dp"
-        >
-
-        <ImageButton
-            android:id="@+id/homebtn"
-            android:layout_width="125dp"
-            android:layout_height="90dp"
-            android:backgroundTint="#DECDBE"
-            app:srcCompat="@drawable/ic_baseline_home_24"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="622dp" />
-
-        <ImageButton
-            android:id="@+id/cartbtn"
-            android:layout_width="125dp"
-            android:layout_height="90dp"
-            android:layout_gravity="center"
-            android:backgroundTint="#DECDBE"
-            app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
-            tools:layout_editor_absoluteX="163dp"
-            tools:layout_editor_absoluteY="622dp" />
-
-        <ImageButton
-            android:id="@+id/accbtn"
-            android:layout_width="125dp"
-            android:layout_height="90dp"
-            android:background="#DECDBE"
-            app:srcCompat="@drawable/ic_baseline_person_24"
-            tools:layout_editor_absoluteX="292dp"
-            tools:layout_editor_absoluteY="622dp"
-            android:layout_gravity="right"
-
-            />
-
-    </LinearLayout>
-
 
 </LinearLayout>
