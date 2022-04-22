@@ -30,13 +30,13 @@
         </activity>
         <activity
          android:name="com.example.signup.signup"
-            android:exported="false"
+            android:exported="true"
             android:label="signup"
 
             />
         <activity
             android:name="com.example.myapplication.skinCare"
-            android:exported="false"
+            android:exported="true"
             android:label="skin care"
 
             />
