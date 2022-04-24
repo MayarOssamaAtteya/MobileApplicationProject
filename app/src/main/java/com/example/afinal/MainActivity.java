@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, skincare.class);
             startActivity(intent);
         }
-//        else if(src.getId()==R.id.haircareimg){
-//            Intent intent = new Intent(this, haircare.class);
-//            startActivity(intent);
-//        }
+        else if(src.getId()==R.id.haircareimg){
+            Intent intent = new Intent(this, haircare.class);
+            startActivity(intent);
+        }
 //        else{
 //            Intent intent=new Intent(this,checkout.class);
 //            startActivity(intent);
