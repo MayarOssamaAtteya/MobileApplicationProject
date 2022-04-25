@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication"
+    package="com.example.afinal"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="25"
+        android:minSdkVersion="16"
         android:targetSdkVersion="32" />
 
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
-        android:theme="@style/Theme.MyApplication" >
+        android:theme="@style/Theme.Final" >
         <activity
-            android:name="com.example.myapplication.MainActivity"
+            android:name="com.example.afinal.home"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,10 +26,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.afinal.signup"
+            android:exported="true"
+            android:label="signup" />
+        <activity
+            android:name="com.example.afinal.skincare"
+            android:exported="true"
+            android:label="skin care" />
+
+        <receiver
+            android:name="com.example.afinal.AirplaneModeChangeReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" >
+                </action>
+            </intent-filter>
+        </receiver>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.myapplication.androidx-startup"
+            android:authorities="com.example.afinal.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
