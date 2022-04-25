@@ -8,7 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.afinal.R;
+
+import com.example.myapplication.R;
 
 public class signup extends AppCompatActivity {
     private EditText user,email,num,pass,repass;

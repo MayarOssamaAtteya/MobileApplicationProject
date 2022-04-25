@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.afinal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.afinal.signup;
+import com.example.myapplication.R;
+
+public class sis extends AppCompatActivity {
     private Button button;
     private Button button2;
 
@@ -34,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openlogin(){
-        Intent intent=new Intent(this, login.class );
+        Intent intent=new Intent(this, signup.class );
         startActivity(intent);
     }
     public void opensignup(){
