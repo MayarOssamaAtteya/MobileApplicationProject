@@ -8,7 +8,7 @@
     android:id="@+id/linear1"
     android:orientation="vertical"
     android:background="@drawable/background"
-    tools:context=".login">
+    tools:context="com.example.afinal.login">
 
   <TextView
       android:layout_width="match_parent"
@@ -86,7 +86,7 @@
       android:layout_height="wrap_content"
       android:id="@+id/linear2"
       android:orientation="horizontal"
-      tools:context=".login"
+      tools:context="com.example.afinal.login"
       android:gravity="center"
       >
 
