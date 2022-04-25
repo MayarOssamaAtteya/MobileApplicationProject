@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Final">
 
         <activity
-            android:name=".home"
+            android:name=".MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -22,6 +22,12 @@
         </activity>
         <activity
          android:name=".signup"
+            android:exported="true"
+            android:label="signup"
+
+            />
+        <activity
+            android:name=".home"
             android:exported="true"
             android:label="signup"
 
