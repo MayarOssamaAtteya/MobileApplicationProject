@@ -14,7 +14,7 @@ public class skincare extends AppCompatActivity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.skincare);
+            setContentView(R.layout.skin_care);
 
 
             button = (Button) findViewById(R.id.moist_button);
