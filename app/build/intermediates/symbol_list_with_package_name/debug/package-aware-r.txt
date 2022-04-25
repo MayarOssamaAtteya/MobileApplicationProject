@@ -3146,6 +3146,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3223,6 +3224,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout signup
 layout skin_care
+layout skincare
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

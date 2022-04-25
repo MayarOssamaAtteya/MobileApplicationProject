@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openlogin(){
-        Intent intent=new Intent(this, signup.class );
+        Intent intent=new Intent(this, skincare.class );
         startActivity(intent);
     }
     public void opensignup(){

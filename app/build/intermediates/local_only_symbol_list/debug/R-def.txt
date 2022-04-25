@@ -88,12 +88,14 @@ id useText
 id water
 id waterText
 id water_button
+layout activity_login
 layout activity_main
 layout haircare
 layout home
 layout login
 layout signup
 layout skin_care
+layout skincare
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

@@ -35,10 +35,6 @@
             android:name="com.example.afinal.home"
             android:exported="true"
             android:label="signup" />
-        <activity
-            android:name="com.example.afinal.skincare"
-            android:exported="true"
-            android:label="skin care" />
 
         <receiver
             android:name="com.example.afinal.AirplaneModeChangeReceiver"

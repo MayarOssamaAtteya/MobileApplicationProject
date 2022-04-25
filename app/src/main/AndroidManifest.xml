@@ -32,12 +32,7 @@
             android:label="signup"
 
             />
-        <activity
-            android:name=".skincare"
-            android:exported="true"
-            android:label="skin care"
 
-            />
         <receiver android:name=".AirplaneModeChangeReceiver" android:exported="true">
             <intent-filter>
                 <action
