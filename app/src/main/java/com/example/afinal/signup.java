@@ -6,7 +6,6 @@ import androidx.core.app.NotificationManagerCompat;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
@@ -14,9 +13,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.afinal.R;
-
 public class signup extends AppCompatActivity {
+
     private EditText user,email,num,pass,repass;
     Button not;
 
@@ -30,6 +28,10 @@ public class signup extends AppCompatActivity {
         num=findViewById(R.id.NumberInp);
         pass=findViewById(R.id.passInp);
         repass=findViewById(R.id.repassinp);
+
+
+        not=findViewById(R.id.button);
+
 
         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.O){
             NotificationChannel channel=new NotificationChannel("My Notification" ,"My Notification", NotificationManager.IMPORTANCE_DEFAULT);
@@ -99,6 +101,8 @@ public class signup extends AppCompatActivity {
         myEdit.apply();
         //keda ana 3malt store w h3ml retrieve mn el onresume
     }
+
+
 
 
 
