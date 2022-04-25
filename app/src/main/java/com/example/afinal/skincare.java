@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.myapplication.R;
+import com.example.afinal.R;
 
 public class skincare extends AppCompatActivity {
 
