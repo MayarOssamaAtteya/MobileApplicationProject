@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/backgrd"
 
-    tools:context="com.example.afinal.login"><![CDATA[
+    tools:context=".MainActivity"><![CDATA[
     />
 
 

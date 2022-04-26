@@ -30,8 +30,7 @@
         <activity
             android:name="com.example.afinal.home"
             android:exported="true"
-            android:label="home"
-            android:parentActivityName="com.example.afinal.signup" />
+            android:label="home" />
         <activity
             android:name="com.example.afinal.signup"
             android:exported="true"

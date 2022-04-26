@@ -1,4 +1,4 @@
-#Wed Apr 27 01:09:40 EET 2022
+#Wed Apr 27 01:21:24 EET 2022
 base.0=C\:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

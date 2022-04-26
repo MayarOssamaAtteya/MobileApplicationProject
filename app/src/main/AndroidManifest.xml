@@ -24,7 +24,7 @@
             android:name=".home"
             android:exported="true"
             android:label="home"
-            android:parentActivityName=".signup"
+
             />
         <activity
          android:name=".signup"

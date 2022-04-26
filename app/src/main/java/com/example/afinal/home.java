@@ -13,7 +13,7 @@ public class home extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.signup);
+        setContentView(R.layout.home);
         hair = findViewById(R.id.haircareimg);
         skin = findViewById(R.id.skincareimg);
 
