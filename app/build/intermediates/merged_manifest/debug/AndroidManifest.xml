@@ -35,6 +35,11 @@
             android:name="com.example.afinal.home"
             android:exported="true"
             android:label="signup" />
+        <activity
+            android:name="com.example.afinal.login"
+            android:exported="true"
+            android:label="login"
+            android:parentActivityName="com.example.afinal.MainActivity" />
 
         <receiver
             android:name="com.example.afinal.AirplaneModeChangeReceiver"
