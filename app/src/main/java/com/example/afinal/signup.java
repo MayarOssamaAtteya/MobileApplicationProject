@@ -56,7 +56,7 @@ public class signup extends AppCompatActivity {
 
                 NotificationManagerCompat managerCompat=NotificationManagerCompat.from(signup.this);
                 managerCompat.notify(1,builder.build());
-                Intent intent = new Intent(getApplicationContext() , home.class);
+                Intent intent = new Intent(getApplicationContext(),haircare.class);
 //                String text=data.getText().toString();
 //                intent.putExtra("string",text);
                 startActivity(intent);

@@ -32,7 +32,7 @@ public class home extends AppCompatActivity implements View.OnClickListener{
             startActivity(intent);
         }
 //        else{
-//            Intent intent=new Intent(this,checkout.class);
+//            Intent intent=new Intent(this,haircare.class);
 //            startActivity(intent);
 //        }
 
