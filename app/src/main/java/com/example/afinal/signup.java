@@ -6,6 +6,7 @@ import androidx.core.app.NotificationManagerCompat;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ import android.widget.EditText;
 public class signup extends AppCompatActivity {
 
     private EditText user,email,num,pass,repass;
-    Button not;
+    Button not,intentbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class signup extends AppCompatActivity {
 
 
         not=findViewById(R.id.button);
-
+        intentbutton=findViewById(R.id.button);
 
         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.O){
             NotificationChannel channel=new NotificationChannel("My Notification" ,"My Notification", NotificationManager.IMPORTANCE_DEFAULT);
@@ -40,9 +41,12 @@ public class signup extends AppCompatActivity {
 
         }
 
+
         not.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
+
                 /////////notification code//////
                 NotificationCompat.Builder builder=new NotificationCompat.Builder(signup.this,"My Notification");
                 builder.setContentTitle("my title");
@@ -52,6 +56,10 @@ public class signup extends AppCompatActivity {
 
                 NotificationManagerCompat managerCompat=NotificationManagerCompat.from(signup.this);
                 managerCompat.notify(1,builder.build());
+                Intent intent = new Intent(getApplicationContext() , home.class);
+//                String text=data.getText().toString();
+//                intent.putExtra("string",text);
+                startActivity(intent);
 
 
             }

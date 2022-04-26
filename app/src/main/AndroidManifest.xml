@@ -21,23 +21,32 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".home"
+            android:exported="true"
+            android:label="skincare"
+            />
+        <activity
          android:name=".signup"
             android:exported="true"
             android:label="signup"
-
             />
-        <activity
-            android:name=".home"
-            android:exported="true"
-            android:label="signup"
 
-            />
         <activity
             android:name=".login"
             android:exported="true"
             android:label="login"
             android:parentActivityName=".MainActivity"
 
+            />
+        <activity
+            android:name=".skincare"
+            android:exported="true"
+            android:label="skincare"
+            />
+        <activity
+            android:name=".haircare"
+            android:exported="true"
+            android:label="haircare"
             />
 
         <receiver android:name=".AirplaneModeChangeReceiver" android:exported="true">

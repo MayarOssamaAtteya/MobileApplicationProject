@@ -11,7 +11,7 @@
 9-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:5:5-52:19
+11-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:5:5-61:19
 12        android:allowBackup="true"
 12-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -46,68 +46,84 @@
 28            </intent-filter>
 29        </activity>
 30        <activity
-30-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:23:9-28:15
-31            android:name="com.example.afinal.signup"
-31-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:24:10-32
+30-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:23:9-27:15
+31            android:name="com.example.afinal.home"
+31-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:24:13-33
 32            android:exported="true"
 32-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:25:13-36
-33            android:label="signup" />
-33-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:26:13-35
+33            android:label="skincare" />
+33-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:26:13-37
 34        <activity
-34-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:29:9-34:15
-35            android:name="com.example.afinal.home"
-35-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:30:13-33
+34-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:28:9-32:15
+35            android:name="com.example.afinal.signup"
+35-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:29:10-32
 36            android:exported="true"
-36-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:31:13-36
+36-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:30:13-36
 37            android:label="signup" />
-37-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:32:13-35
+37-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:31:13-35
 38        <activity
-38-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:35:9-41:15
+38-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:34:9-40:15
 39            android:name="com.example.afinal.login"
-39-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:36:13-34
+39-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:35:13-34
 40            android:exported="true"
-40-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:37:13-36
+40-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:36:13-36
 41            android:label="login"
-41-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:38:13-34
+41-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:37:13-34
 42            android:parentActivityName="com.example.afinal.MainActivity" />
-42-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:39:13-55
-43
-44        <receiver
-44-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:43:9-51:20
-45            android:name="com.example.afinal.AirplaneModeChangeReceiver"
-45-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:43:19-61
-46            android:exported="true" >
-46-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:43:62-85
-47            <intent-filter>
-47-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:44:13-49:29
-48                <action android:name="android.intent.action.AIRPLANE_MODE" >
-48-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:45:17-48:26
-48-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:46:21-71
-49                </action>
-50            </intent-filter>
-51        </receiver>
-52
-53        <provider
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-54            android:name="androidx.startup.InitializationProvider"
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-55            android:authorities="com.example.afinal.androidx-startup"
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-56            android:exported="false" >
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-57            <meta-data
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-59                android:value="androidx.startup" />
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-60            <meta-data
-60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-62                android:value="androidx.startup" />
-62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-63        </provider>
-64    </application>
-65
-66</manifest>
+42-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:38:13-55
+43        <activity
+43-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:41:9-45:15
+44            android:name="com.example.afinal.skincare"
+44-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:42:13-37
+45            android:exported="true"
+45-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:43:13-36
+46            android:label="skincare" />
+46-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:44:13-37
+47        <activity
+47-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:46:9-50:15
+48            android:name="com.example.afinal.haircare"
+48-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:47:13-37
+49            android:exported="true"
+49-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:48:13-36
+50            android:label="haircare" />
+50-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:49:13-37
+51
+52        <receiver
+52-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:52:9-60:20
+53            android:name="com.example.afinal.AirplaneModeChangeReceiver"
+53-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:52:19-61
+54            android:exported="true" >
+54-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:52:62-85
+55            <intent-filter>
+55-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:53:13-58:29
+56                <action android:name="android.intent.action.AIRPLANE_MODE" >
+56-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:54:17-57:26
+56-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:55:21-71
+57                </action>
+58            </intent-filter>
+59        </receiver>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+63            android:authorities="com.example.afinal.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>

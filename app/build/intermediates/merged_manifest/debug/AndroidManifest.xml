@@ -28,11 +28,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.afinal.signup"
-            android:exported="true"
-            android:label="signup" />
-        <activity
             android:name="com.example.afinal.home"
+            android:exported="true"
+            android:label="skincare" />
+        <activity
+            android:name="com.example.afinal.signup"
             android:exported="true"
             android:label="signup" />
         <activity
@@ -40,6 +40,14 @@
             android:exported="true"
             android:label="login"
             android:parentActivityName="com.example.afinal.MainActivity" />
+        <activity
+            android:name="com.example.afinal.skincare"
+            android:exported="true"
+            android:label="skincare" />
+        <activity
+            android:name="com.example.afinal.haircare"
+            android:exported="true"
+            android:label="haircare" />
 
         <receiver
             android:name="com.example.afinal.AirplaneModeChangeReceiver"
