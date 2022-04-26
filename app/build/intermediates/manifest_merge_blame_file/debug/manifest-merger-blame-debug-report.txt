@@ -51,8 +51,8 @@
 31-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:24:13-33
 32            android:exported="true"
 32-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:25:13-36
-33            android:label="skincare" />
-33-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:26:13-37
+33            android:label="home" />
+33-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:26:13-33
 34        <activity
 34-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:28:9-32:15
 35            android:name="com.example.afinal.signup"

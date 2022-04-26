@@ -23,7 +23,7 @@
         <activity
             android:name=".home"
             android:exported="true"
-            android:label="skincare"
+            android:label="home"
             />
         <activity
          android:name=".signup"
