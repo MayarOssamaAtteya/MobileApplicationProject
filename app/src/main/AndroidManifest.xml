@@ -32,6 +32,13 @@
             android:label="signup"
 
             />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:label="login"
+            android:parentActivityName=".MainActivity"
+
+            />
 
         <receiver android:name=".AirplaneModeChangeReceiver" android:exported="true">
             <intent-filter>

@@ -91,7 +91,6 @@ id useText
 id water
 id waterText
 id water_button
-layout activity_main
 layout hair_care
 layout home
 layout login
