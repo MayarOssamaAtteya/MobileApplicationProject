@@ -8,6 +8,6 @@ public class haircare extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.haircare);
+        setContentView(R.layout.hair_care);
     }
 }

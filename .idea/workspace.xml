@@ -10,13 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="891e9833-5c12-4810-b955-35bd664b9fc5" name="Default Changelist" comment="mobile app project">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/afinal/haircare.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/afinal/haircare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -495,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650927206852</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="mobile app project">
+      <created>1650936330788</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1650936330788</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,8 +546,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mobile App" />
     <MESSAGE value="Login" />
-    <MESSAGE value="mobile app project" />
     <MESSAGE value="mar" />
-    <option name="LAST_COMMIT_MESSAGE" value="mar" />
+    <MESSAGE value="mobile app project" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile app project" />
   </component>
 </project>
