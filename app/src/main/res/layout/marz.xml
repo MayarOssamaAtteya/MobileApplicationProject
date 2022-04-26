@@ -4,9 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgrd"
 
     tools:context="com.example.afinal.login"><![CDATA[
     />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -19,10 +34,10 @@
         android:id="@+id/textView"
         android:layout_width="275dp"
         android:layout_height="36dp"
-        android:layout_marginRight="44dp"
-        android:layout_marginBottom="484dp"
-        android:text="Welcome"
-        android:textColor="@color/black"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="368dp"
+        android:text="WELCOME"
+        android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,8 +50,9 @@
         android:layout_marginRight="220dp"
         android:layout_marginBottom="28dp"
         android:background="#342327"
+        app:backgroundTint="#5B2D25"
         android:text="Login"
-        android:textColor="#5E544E"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -48,18 +64,21 @@
         android:layout_marginBottom="28dp"
         android:background="#342327"
         android:text="Signup"
-        android:textColor="#5E544E"
+        app:backgroundTint="#5B2D25"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="215dp"
-        android:layout_height="324dp"
+        android:layout_width="312dp"
+        android:layout_height="112dp"
 
-        android:layout_marginBottom="104dp"
-        android:alpha="0.5"
-        android:background="@color/black"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="144dp"
+        android:background="#5B2D25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,10 +88,10 @@
         android:id="@+id/textView2"
         android:layout_width="175dp"
         android:layout_height="34dp"
-        android:layout_marginRight="96dp"
-        android:layout_marginBottom="540dp"
+        android:layout_marginRight="172dp"
+        android:layout_marginBottom="288dp"
         android:text="Natural care"
-        android:textColor="#D4C8C1"
+        android:textColor="#5B2D25"
         android:textSize="24dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,14 +99,14 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="215dp"
-        android:layout_height="320dp"
-        android:layout_marginRight="196dp"
-        android:layout_marginBottom="112dp"
+        android:layout_width="248dp"
+        android:layout_height="86dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="160dp"
         android:text="Our brand aims to offer products healthy for you and the environment, 100% organic and hand-made with love and precision.Our brand aims to offer products healthy for you and the environment, 100% organic and hand-made with love and precision.Natural and Organic Skin Care and  plant-based ingredients
 Eco-Friendly |Recyclable  eco-friendly packaging
-Ethical  Nontoxic, vegan, cruelty-free, Fair Trade certified ingredients
 "
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
