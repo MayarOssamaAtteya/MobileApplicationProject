@@ -27,7 +27,7 @@ public class home extends AppCompatActivity implements View.OnClickListener{
             Intent intent = new Intent(this, skincare.class);
             startActivity(intent);
         }
-        else if(src.getId()==R.id.haircareimg){
+        if(src.getId()==R.id.haircareimg){
             Intent intent = new Intent(this, haircare.class);
             startActivity(intent);
         }
