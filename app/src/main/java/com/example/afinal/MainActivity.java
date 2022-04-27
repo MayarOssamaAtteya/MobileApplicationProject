@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openlogin(){
-        Intent intent=new Intent(this, mody.class );
+        Intent intent=new Intent(this, login.class );
         startActivity(intent);
     }
     public void opensignup(){
