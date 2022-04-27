@@ -37,6 +37,7 @@ drawable makeup
 drawable mob
 drawable moist
 drawable rtts
+drawable secich
 drawable skin
 drawable sunscreen
 drawable twitter
@@ -51,7 +52,9 @@ id button
 id button2
 id button3
 id button4
+id button5
 id button6
+id button7
 id cartbtn
 id checkout_button
 id cleanserText
@@ -66,6 +69,8 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id imageView7
 id linear1
 id linear2
@@ -86,6 +91,8 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView8
+id textView9
 id textViewp
 id textViewu
 id water

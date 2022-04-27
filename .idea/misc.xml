@@ -5,22 +5,19 @@
       <map>
         <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout-v11/home.xml" value="0.10729166666666666" />
         <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/activity_mody.xml" value="0.14583333333333334" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/hair_care.xml" value="0.15833333333333333" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/haircare.xml" value="0.136" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/home.xml" value="0.2" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/login.xml" value="0.19375" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/marz.xml" value="0.19375" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/signup.xml" value="0.2" />
+        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/home.xml" value="0.128" />
+        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/signup.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/skin_care.xml" value="0.175" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/activity_home.xml" value="0.1675929884566054" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/activity_mody.xml" value="0.1" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/hair_care.xml" value="0.25" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Omar/AndroidStudioProjects/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/Omar/AndroidStudioProjects/app/src/main/res/layout/hair_care.xml" value="0.33" />
+        <entry key="..\:/Users/Omar/AndroidStudioProjects/app/src/main/res/layout/haircare.xml" value="0.1" />
+        <entry key="..\:/Users/Omar/AndroidStudioProjects/app/src/main/res/layout/home.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/haircare.xml" value="0.1" />
         <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/login.xml" value="0.1" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/marz.xml" value="0.25" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/signup.xml" value="0.1346328195829556" />
+        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/marz.xml" value="0.1" />
         <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/skin_care.xml" value="0.1" />
+        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/skincare.xml" value="0.1" />
       </map>
     </option>
   </component>

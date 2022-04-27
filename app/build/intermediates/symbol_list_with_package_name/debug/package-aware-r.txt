@@ -2535,6 +2535,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable rtts
+drawable secich
 drawable skin
 drawable sunscreen
 drawable test_custom_background
@@ -2652,7 +2653,9 @@ id button
 id button2
 id button3
 id button4
+id button5
 id button6
+id button7
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2785,6 +2788,8 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id imageView7
 id immediateStop
 id included
@@ -3021,6 +3026,8 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView8
+id textView9
 id textViewp
 id textViewu
 id text_input_end_icon
