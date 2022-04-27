@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class home extends AppCompatActivity implements View.OnClickListener{
-    ImageButton hair, skin;
+    ImageButton hair, skin,check;
     TextView hell;
 
     @Override
@@ -18,10 +18,13 @@ public class home extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.home);
         hair = findViewById(R.id.haircareimg);
         skin = findViewById(R.id.skincareimg);
+        check=findViewById(R.id.cartbtn);
         hell=findViewById(R.id.welcome);
 
         hair.setOnClickListener(this);
         skin.setOnClickListener(this);
+        check.setOnClickListener(this);
+
         Intent i =getIntent();
        String welc= i.getStringExtra("string");
        hell.setText(welc);
@@ -37,10 +40,11 @@ public class home extends AppCompatActivity implements View.OnClickListener{
             Intent intent = new Intent(this, haircare.class);
             startActivity(intent);
         }
-//        else{
-//            Intent intent=new Intent(this,haircare.class);
-//            startActivity(intent);
-//        }
+        if(src.getId()==R.id.cartbtn){
+            Intent intent = new Intent(this, mody.class);
+            startActivity(intent);
+        }
+
 
 
     }

@@ -29,7 +29,7 @@
                 android:id="@+id/album_description_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Skin Care Category"
+                android:hint="Checkout Cart"
                 android:inputType="textMultiLine"
                 android:textColor="#5B2D25"
                 tools:layout_editor_absoluteY="81dp" />
