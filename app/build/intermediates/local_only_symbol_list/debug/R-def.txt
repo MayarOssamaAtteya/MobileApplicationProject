@@ -67,6 +67,7 @@ id imageView4
 id imageView7
 id linear1
 id linear2
+id login_login
 id mailText
 id moist
 id moistText
@@ -81,12 +82,15 @@ id search
 id skincareimg
 id skincaretxt
 id sunscreen
+id text
 id textView
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
+id textViewp
+id textViewu
 id useText
 id water
 id waterText

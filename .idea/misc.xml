@@ -3,19 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout-v11/home.xml" value="0.10729166666666666" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/hair_care.xml" value="0.15833333333333333" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/haircare.xml" value="0.136" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/home.xml" value="0.176" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/signup.xml" value="0.2" />
-        <entry key="..\:/Users/Laila/Desktop/Semster6/Mobile/final/app/src/main/res/layout/skin_care.xml" value="0.175" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/home.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/login.xml" value="0.1" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/marz.xml" value="0.1" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/signup.xml" value="0.15" />
-        <entry key="..\:/Users/mayar/AndroidStudioProjects/SignUp/app/src/main/res/layout/skin_care.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/activity_login.xml" value="0.11980749746707194" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/activity_main.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/activity_signup.xml" value="0.11980749746707194" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/hair_care.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/home.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/login.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/marz.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/signup.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/skin_care.xml" value="0.24635416666666668" />
       </map>
     </option>
   </component>

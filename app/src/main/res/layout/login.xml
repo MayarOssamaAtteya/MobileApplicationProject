@@ -8,9 +8,10 @@
     android:id="@+id/linear1"
     android:orientation="vertical"
     android:background="@drawable/background"
-    tools:context="com.example.afinal.login">
+    tools:context=".login">
 
   <TextView
+      android:id="@+id/text"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_gravity="center_vertical"
@@ -22,6 +23,7 @@
       android:textStyle="bold" />
 
   <EditText
+      android:id="@+id/textViewu"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:background="#30ffffff"
@@ -37,6 +39,7 @@
 
 
   <EditText
+      android:id="@+id/textViewp"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:background="#30ffffff"
@@ -50,6 +53,7 @@
       android:drawablePadding="10dp"
       />
   <Button
+      android:id="@+id/login_login"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center_horizontal"
