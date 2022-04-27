@@ -26,6 +26,10 @@
             android:exported="true"
             android:label="home" />
         <activity
+            android:name=".rec"
+            android:exported="true"
+            android:label="rec" />
+        <activity
             android:name=".signup"
             android:exported="true"
             android:label="signup" />

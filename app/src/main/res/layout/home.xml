@@ -31,13 +31,6 @@
     android:orientation="horizontal">
 
 
-    <SearchView
-        android:id="@+id/search"
-        android:layout_width="301dp"
-        android:layout_height="80dp"
-        android:iconifiedByDefault="false"
-        android:queryHint="@string/searchbar"
-        tools:layout_editor_absoluteX="6dp" />
     <ImageButton
         android:id="@+id/cartbtn"
         android:layout_width="64dp"

@@ -20,8 +20,7 @@
         android:theme="@style/Theme.Final" >
         <activity
             android:name="com.example.afinal.mody"
-            android:exported="true"
-            android:label="checkout" />
+            android:exported="false" />
         <activity
             android:name="com.example.afinal.MainActivity"
             android:exported="true" >
@@ -35,6 +34,10 @@
             android:name="com.example.afinal.home"
             android:exported="true"
             android:label="home" />
+        <activity
+            android:name="com.example.afinal.rec"
+            android:exported="true"
+            android:label="rec" />
         <activity
             android:name="com.example.afinal.signup"
             android:exported="true"
