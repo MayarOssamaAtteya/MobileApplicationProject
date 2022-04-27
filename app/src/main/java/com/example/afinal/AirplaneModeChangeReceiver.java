@@ -11,9 +11,9 @@ public class AirplaneModeChangeReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         //  check airplane mode on or off
         if (isAirplaneModeOn(context.getApplicationContext())) {
-            Toast.makeText(context, "AirPlane mode is on", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "AirPlane mode is enabled", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(context, "AirPlane mode is off", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "AirPlane mode is not enabled ", Toast.LENGTH_SHORT).show();
         }
     }
 // method return boolean if airplane mode of the system is off or on
