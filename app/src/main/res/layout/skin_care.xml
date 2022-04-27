@@ -12,18 +12,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".skincare"
-    android:background="#DECDBE">
-
+    >
 
     <LinearLayout
-        android:layout_width="396dp"
-        android:layout_height="734dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DECDBE"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="-2dp">
+        tools:context=".skincare"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-16dp">
+
 
         <EditText
             android:id="@+id/album_description_view"
@@ -36,10 +35,11 @@
 
         <ImageView
             android:id="@+id/moist"
-            android:layout_width="180dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="255px"
-            android:layout_marginTop="5dp"
+            android:layout_width="300px"
+            android:layout_height="450px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="40dp"
+
             android:scaleType="centerCrop"
             android:src="@drawable/moist" />
 
@@ -47,7 +47,7 @@
             android:id="@+id/moistText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="335px"
+            android:layout_marginLeft="80px"
             android:text="Moisturizer"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#5B2D25"
@@ -57,17 +57,18 @@
             android:id="@+id/moist_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="320px"
+            android:layout_marginLeft="60px"
             android:text="Add to cart"
             android:textStyle="bold"
+
             app:backgroundTint="#5B2D25" />
 
         <ImageView
             android:id="@+id/water"
-            android:layout_width="180dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="250px"
-            android:layout_marginTop="0dp"
+            android:layout_width="300px"
+            android:layout_height="450px"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-300dp"
             android:scaleType="centerCrop"
             android:src="@drawable/water" />
 
@@ -75,8 +76,8 @@
             android:id="@+id/waterText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="330px"
-            android:text="Micellar Water"
+            android:layout_marginLeft="430px"
+            android:text="MicellarWater"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#5B2D25"
             android:textStyle="bold" />
@@ -85,47 +86,18 @@
             android:id="@+id/water_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="330px"
-            android:text="Add to cart"
-            android:textStyle="bold"
-            app:backgroundTint="#5B2D25" />
+            android:layout_marginLeft="430px"
 
-
-        <ImageView
-            android:id="@+id/sunscreen"
-            android:layout_width="180dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="250px"
-            android:layout_marginTop="0dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/sunscreen" />
-
-        <TextView
-            android:id="@+id/cleanserText"
-            android:layout_width="wrap_content"
-            android:layout_height="36dp"
-            android:layout_marginLeft="330px"
-            android:text="Sunscreen"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:textColor="#5B2D25"
-            android:textStyle="bold" />
-
-
-        <Button
-            android:id="@+id/cleanser_button"
-            android:layout_width="wrap_content"
-            android:layout_height="55dp"
-            android:layout_marginLeft="330px"
             android:text="Add to cart"
             android:textStyle="bold"
             app:backgroundTint="#5B2D25" />
 
         <ImageView
             android:id="@+id/hyal"
-            android:layout_width="180dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="250px"
-            android:layout_marginTop="10dp"
+            android:layout_width="149dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="50px"
             android:scaleType="centerCrop"
             android:src="@drawable/hyal" />
 
@@ -148,11 +120,44 @@
             android:textStyle="bold"
             app:backgroundTint="#5B2D25" />
 
+        <ImageView
+            android:id="@+id/sunscreen"
+            android:layout_width="149dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-420px"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sunscreen" />
+
+        <TextView
+            android:id="@+id/cleanserText"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="430px"
+            android:text="Sunscreen"
+
+            android:textAppearance="?android:textAppearanceLarge"
+
+            android:textColor="#5B2D25"
+
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/cleanser_button"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginLeft="430px"
+            android:text="Add to cart"
+            android:textStyle="bold"
+            app:backgroundTint="#5B2D25" />
+
         <Button
             android:id="@+id/checkout_button"
             android:layout_width="225dp"
             android:layout_height="59dp"
-            android:layout_marginLeft="250px"
+            android:layout_marginLeft="150px"
+
             android:layout_marginTop="20px"
             android:text="view cart"
             android:textStyle="bold"

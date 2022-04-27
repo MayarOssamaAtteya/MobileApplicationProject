@@ -17,7 +17,7 @@ public class skincare extends AppCompatActivity {
             setContentView(R.layout.skin_care);
 
 
-            button = (Button) findViewById(R.id.moist_button);
+            button = (Button) findViewById(R.id.checkout_button);
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v){
@@ -28,7 +28,7 @@ public class skincare extends AppCompatActivity {
 
         }
         public void open(){
-            Intent intent=new Intent(this,  MainActivity.class );
+            Intent intent=new Intent(this,  mody.class );
             startActivity(intent);
         }
     }
