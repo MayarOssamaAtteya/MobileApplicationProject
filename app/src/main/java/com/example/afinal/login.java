@@ -6,6 +6,7 @@ import androidx.core.app.NotificationManagerCompat;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -44,17 +45,22 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+
                 /////////notification code//////
                 NotificationCompat.Builder builder = new NotificationCompat.Builder(login.this, "My Notification");
-                builder.setContentTitle("my title");
-                builder.setContentText("login in complete to neutralcare ");
-                builder.setSmallIcon(R.drawable.ic_launcher_background);
+                builder.setContentTitle("Natural care");
+                builder.setContentText(" login is complete , Welcome to natural care");
+                builder.setSmallIcon(R.drawable.ic_baseline_home_24);
                 builder.setAutoCancel(true);
 
                 NotificationManagerCompat managerCompat = NotificationManagerCompat.from(login.this);
                 managerCompat.notify(1, builder.build());
+                Intent intent = new Intent(getApplicationContext(),home.class);
+                String text="Welcome "+user.getText().toString();
+                intent.putExtra("string",text);
+                startActivity(intent);
 
-                opensignup();
+
 
 
 

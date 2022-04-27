@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class home extends AppCompatActivity implements View.OnClickListener{
     ImageButton hair, skin;
+    TextView hell;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,9 +18,13 @@ public class home extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.home);
         hair = findViewById(R.id.haircareimg);
         skin = findViewById(R.id.skincareimg);
+        hell=findViewById(R.id.welcome);
 
         hair.setOnClickListener(this);
         skin.setOnClickListener(this);
+        Intent i =getIntent();
+       String welc= i.getStringExtra("string");
+       hell.setText(welc);
     }
 
     @Override

@@ -2803,7 +2803,6 @@ id linear2
 id listMode
 id list_item
 id login_login
-id mailText
 id masked
 id match_constraint
 id match_parent
@@ -2894,14 +2893,11 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id passInp
-id passText
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
-id phonetext
-id photo_image_view
 id pin
 id position
 id postLayout
@@ -2910,7 +2906,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id repassText
 id repassinp
 id reverseSawtooth
 id right
@@ -2929,7 +2924,6 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
-id search
 id search_badge
 id search_bar
 id search_button
@@ -3048,7 +3042,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id useText
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3060,6 +3053,7 @@ id visible_removing_fragment_view_tag
 id water
 id waterText
 id water_button
+id welcome
 id west
 id withText
 id withinBounds
