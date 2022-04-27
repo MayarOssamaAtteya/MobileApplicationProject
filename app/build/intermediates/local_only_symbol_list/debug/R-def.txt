@@ -36,6 +36,7 @@ drawable immg
 drawable makeup
 drawable mob
 drawable moist
+drawable rtts
 drawable skin
 drawable sunscreen
 drawable twitter
@@ -89,12 +90,14 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id textViewp
 id textViewu
 id useText
 id water
 id waterText
 id water_button
+layout activity_mody
 layout hair_care
 layout home
 layout login

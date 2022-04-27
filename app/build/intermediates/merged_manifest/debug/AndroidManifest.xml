@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Final" >
         <activity
+            android:name="com.example.afinal.mody"
+            android:exported="false" />
+        <activity
             android:name="com.example.afinal.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -53,8 +56,7 @@
             android:name="com.example.afinal.AirplaneModeChangeReceiver"
             android:exported="true" >
             <intent-filter>
-                <action android:name="android.intent.action.AIRPLANE_MODE" >
-                </action>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
             </intent-filter>
         </receiver>
 

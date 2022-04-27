@@ -2528,6 +2528,7 @@ int drawable notification_template_icon_bg 0x7f0700b0
 int drawable notification_template_icon_low_bg 0x7f0700b1
 int drawable notification_tile_bg 0x7f0700b2
 int drawable notify_panel_notification_icon_bg 0x7f0700b3
+int drawable rtts 0x7f0700bd
 int drawable skin 0x7f0700b4
 int drawable sunscreen 0x7f0700b5
 int drawable test_custom_background 0x7f0700b6
@@ -3013,6 +3014,7 @@ int id textView3 0x7f0801d8
 int id textView4 0x7f0801d9
 int id textView5 0x7f0801da
 int id textView6 0x7f0801db
+int id textView7 0x7f080211
 int id textViewp 0x7f08020f
 int id textViewu 0x7f080210
 int id text_input_end_icon 0x7f0801dc
@@ -3151,6 +3153,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_mody 0x7f0b0079
 int layout custom_dialog 0x7f0b001c
 int layout design_bottom_navigation_item 0x7f0b001d
 int layout design_bottom_sheet_dialog 0x7f0b001e

@@ -11,7 +11,7 @@
 9-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:5:5-62:19
+11-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:5:5-53:19
 12        android:allowBackup="true"
 12-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,101 +29,106 @@
 20        android:theme="@style/Theme.Final" >
 20-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:11:9-43
 21        <activity
-21-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:13:9-22:20
-22            android:name="com.example.afinal.MainActivity"
-22-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:14:13-41
-23            android:exported="true" >
-23-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:15:13-36
-24            <intent-filter>
-24-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:17:13-21:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:18:17-69
-25-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:18:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:20:17-77
-27-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:20:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity
-30-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:23:9-28:15
-31            android:name="com.example.afinal.home"
-31-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:24:13-33
-32            android:exported="true"
-32-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:25:13-36
-33            android:label="home" />
-33-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:26:13-33
-34        <activity
-34-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:29:9-33:15
-35            android:name="com.example.afinal.signup"
-35-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:30:10-32
-36            android:exported="true"
-36-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:31:13-36
-37            android:label="signup" />
-37-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:32:13-35
-38        <activity
-38-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:35:9-41:15
-39            android:name="com.example.afinal.login"
-39-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:36:13-34
-40            android:exported="true"
-40-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:37:13-36
-41            android:label="login"
-41-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:38:13-34
-42            android:parentActivityName="com.example.afinal.MainActivity" />
-42-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:39:13-55
-43        <activity
-43-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:42:9-46:15
-44            android:name="com.example.afinal.skincare"
-44-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:43:13-37
-45            android:exported="true"
-45-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:44:13-36
-46            android:label="skincare" />
-46-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:45:13-37
-47        <activity
-47-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:47:9-51:15
-48            android:name="com.example.afinal.haircare"
-48-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:48:13-37
-49            android:exported="true"
-49-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:49:13-36
-50            android:label="haircare" />
-50-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:50:13-37
-51
-52        <receiver
-52-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:53:9-61:20
-53            android:name="com.example.afinal.AirplaneModeChangeReceiver"
-53-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:53:19-61
-54            android:exported="true" >
-54-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:53:62-85
-55            <intent-filter>
-55-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:54:13-59:29
-56                <action android:name="android.intent.action.AIRPLANE_MODE" >
-56-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:55:17-58:26
-56-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:56:21-71
-57                </action>
-58            </intent-filter>
-59        </receiver>
-60
-61        <provider
-61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-62            android:name="androidx.startup.InitializationProvider"
-62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-63            android:authorities="com.example.afinal.androidx-startup"
-63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-64            android:exported="false" >
-64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-65            <meta-data
-65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-67                android:value="androidx.startup" />
-67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-68            <meta-data
-68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-70                android:value="androidx.startup" />
-70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-71        </provider>
-72    </application>
-73
-74</manifest>
+21-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.example.afinal.mody"
+22-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:13:13-33
+23            android:exported="false" />
+23-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:14:13-37
+24        <activity
+24-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="com.example.afinal.MainActivity"
+25-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:16:13-41
+26            android:exported="true" >
+26-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:17:13-36
+27            <intent-filter>
+27-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:24:9-27:36
+34            android:name="com.example.afinal.home"
+34-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:25:13-33
+35            android:exported="true"
+35-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:26:13-36
+36            android:label="home" />
+36-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:27:13-33
+37        <activity
+37-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:28:9-31:38
+38            android:name="com.example.afinal.signup"
+38-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:29:13-35
+39            android:exported="true"
+39-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:30:13-36
+40            android:label="signup" />
+40-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:31:13-35
+41        <activity
+41-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:32:9-36:58
+42            android:name="com.example.afinal.login"
+42-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:33:13-34
+43            android:exported="true"
+43-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:34:13-36
+44            android:label="login"
+44-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:35:13-34
+45            android:parentActivityName="com.example.afinal.MainActivity" />
+45-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:36:13-55
+46        <activity
+46-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:37:9-40:40
+47            android:name="com.example.afinal.skincare"
+47-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:38:13-37
+48            android:exported="true"
+48-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:39:13-36
+49            android:label="skincare" />
+49-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:40:13-37
+50        <activity
+50-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:41:9-44:40
+51            android:name="com.example.afinal.haircare"
+51-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:42:13-37
+52            android:exported="true"
+52-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:43:13-36
+53            android:label="haircare" />
+53-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:44:13-37
+54
+55        <receiver
+55-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:46:9-52:20
+56            android:name="com.example.afinal.AirplaneModeChangeReceiver"
+56-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:47:13-55
+57            android:exported="true" >
+57-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:48:13-36
+58            <intent-filter>
+58-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:49:13-51:29
+59                <action android:name="android.intent.action.AIRPLANE_MODE" />
+59-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:50:17-85
+59-->C:\Users\DELL\AndroidStudioProjects\MyApplication12\app\src\main\AndroidManifest.xml:50:25-75
+60            </intent-filter>
+61        </receiver>
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+65            android:authorities="com.example.afinal.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>

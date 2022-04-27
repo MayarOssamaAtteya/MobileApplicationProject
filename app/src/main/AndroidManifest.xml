@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Final">
-
+        <activity
+            android:name=".mody"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,41 +24,31 @@
         <activity
             android:name=".home"
             android:exported="true"
-            android:label="home"
-
-            />
+            android:label="home" />
         <activity
-         android:name=".signup"
+            android:name=".signup"
             android:exported="true"
-            android:label="signup"
-            />
-
+            android:label="signup" />
         <activity
             android:name=".login"
             android:exported="true"
             android:label="login"
-            android:parentActivityName=".MainActivity"
-
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".skincare"
             android:exported="true"
-            android:label="skincare"
-            />
+            android:label="skincare" />
         <activity
             android:name=".haircare"
             android:exported="true"
-            android:label="haircare"
-            />
+            android:label="haircare" />
 
-        <receiver android:name=".AirplaneModeChangeReceiver" android:exported="true">
+        <receiver
+            android:name=".AirplaneModeChangeReceiver"
+            android:exported="true">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.AIRPLANE_MODE">
-
-                </action>
+                <action android:name="android.intent.action.AIRPLANE_MODE"></action>
             </intent-filter>
-
         </receiver>
     </application>
 
