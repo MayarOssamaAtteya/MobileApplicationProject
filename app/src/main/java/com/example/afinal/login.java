@@ -47,7 +47,7 @@ public class login extends AppCompatActivity {
                 /////////notification code//////
                 NotificationCompat.Builder builder = new NotificationCompat.Builder(login.this, "My Notification");
                 builder.setContentTitle("my title");
-                builder.setContentText("welecom to neutralcare ");
+                builder.setContentText("login in complete to neutralcare ");
                 builder.setSmallIcon(R.drawable.ic_launcher_background);
                 builder.setAutoCancel(true);
 
