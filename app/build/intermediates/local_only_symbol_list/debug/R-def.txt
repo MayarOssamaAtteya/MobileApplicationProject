@@ -75,7 +75,6 @@ id moistText
 id moist_button
 id passInp
 id repassinp
-id search
 id skincareimg
 id skincaretxt
 id sunscreen
