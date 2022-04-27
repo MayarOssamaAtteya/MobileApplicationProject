@@ -6,6 +6,7 @@ import androidx.core.app.NotificationManagerCompat;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -17,7 +18,7 @@ import android.widget.EditText;
 public class signup extends AppCompatActivity {
 
     private EditText user, email, num, pass, repass;
-    Button not,intentbutton;
+    Button not;
 
 
 
@@ -51,22 +52,29 @@ public class signup extends AppCompatActivity {
 
                 /////////notification code//////
                 NotificationCompat.Builder builder = new NotificationCompat.Builder(signup.this, "My Notification");
-                builder.setContentTitle("my title");
-                builder.setContentText("welecom to neutralcare ");
-                builder.setSmallIcon(R.drawable.ic_launcher_background);
-                builder.setAutoCancel(true);
-
-                NotificationManagerCompat managerCompat = NotificationManagerCompat.from(signup.this);
-                managerCompat.notify(1, builder.build());
+                builder.setContentTitle("natural care"); //set title of notification
+                builder.setContentText(" sign up is complete , Welcome to natural care");//this is notification message
+                builder.setSmallIcon(R.drawable.ic_baseline_home_24); //set icon for notification
+                builder.setAutoCancel(true);// makes auto cancel of notification
+                builder.setPriority(NotificationCompat.PRIORITY_DEFAULT); //set priority of notification
                 Intent intent = new Intent(getApplicationContext(),home.class);
-//                String text=data.getText().toString();
-//                intent.putExtra("string",text);
-                startActivity(intent);
+                String text="Welcome "+user.getText().toString();
+                intent.putExtra("string",text);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                //notification message will get at NotificationView
+                intent.putExtra("message", " sign up is complete , Welcome to natural care ");
 
-                    open();
+                PendingIntent pendingIntent = PendingIntent.getActivity(getApplicationContext(), 0,intent,
+                        PendingIntent.FLAG_UPDATE_CURRENT);
+                builder.setContentIntent(pendingIntent);
+                // Add as notification
+                NotificationManager manager = (NotificationManager) getSystemService(getApplicationContext().NOTIFICATION_SERVICE);
+                manager.notify(0, builder.build());
+//                NotificationManagerCompat managerCompat = NotificationManagerCompat.from(login.this);
+//                managerCompat.notify(1, builder.build());
+//
+//                opensignup();
 
-
-                    open();
 
 
 
