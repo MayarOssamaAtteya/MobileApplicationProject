@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_shopping_cart_24.png.flat",
-        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_shopping_cart_24.png"
-    },
-    {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_favorite_24.png.flat",
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_favorite_24.png"
+    },
+    {
+        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_shopping_cart_24.png.flat",
+        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_shopping_cart_24.png"
     },
     {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable_user.png.flat",
@@ -48,16 +48,16 @@
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\layout\\skin_care.xml"
     },
     {
-        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_home_24.xml"
     },
     {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_baseline_shopping_cart_24.png.flat",
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_shopping_cart_24.png"
     },
     {
-        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_home_24.xml"
+        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\drawable\\hyal.jpeg"
     },
     {
-        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\layout_login.xml.flat",
-        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\layout\\login.xml"
-    },
-    {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\layout_login.xml.flat",
+        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_baseline_shopping_cart_24.png.flat",
@@ -140,28 +140,28 @@
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\drawable\\moist.jpeg"
     },
     {
-        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_baseline_add_shopping_cart_24.png.flat",
-        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_add_shopping_cart_24.png"
+        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_giovanni.jpg.flat",
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\drawable-v24\\giovanni.jpg"
     },
     {
-        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_baseline_security_24.png.flat",
-        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_security_24.png"
+        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_baseline_add_shopping_cart_24.png.flat",
+        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_add_shopping_cart_24.png"
     },
     {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background.jpeg.flat",
         "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\drawable-v24\\background.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_baseline_security_24.png.flat",
+        "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_security_24.png"
     },
     {
         "merged": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\merged_res\\debug\\drawable_haircare.jpg.flat",
