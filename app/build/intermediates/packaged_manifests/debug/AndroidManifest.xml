@@ -20,7 +20,8 @@
         android:theme="@style/Theme.Final" >
         <activity
             android:name="com.example.afinal.mody"
-            android:exported="false" />
+            android:exported="true"
+            android:label="checkout" />
         <activity
             android:name="com.example.afinal.MainActivity"
             android:exported="true" >
