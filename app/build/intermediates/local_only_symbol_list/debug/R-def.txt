@@ -43,6 +43,7 @@ drawable twitter
 drawable user
 drawable water
 id NumberInp
+id RV_layout
 id SignUpText
 id UserInp
 id album_description_view
@@ -74,6 +75,7 @@ id moistText
 id moist_button
 id passInp
 id repassinp
+id search
 id skincareimg
 id skincaretxt
 id sunscreen
@@ -91,9 +93,11 @@ id water
 id waterText
 id water_button
 id welcome
+layout activity_home
 layout activity_mody
 layout hair_care
 layout home
+layout layout
 layout login
 layout marz
 layout signup
@@ -103,6 +107,7 @@ mipmap ic_launcher_round
 string app_name
 string email
 string hair
+string hello_blank_fragment
 string mobilenum
 string pass
 string reenter

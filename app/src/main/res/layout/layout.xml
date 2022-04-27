@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".rec"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DECDBE"
+            tools:context=""
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/haircareimg"
+                android:layout_width="226dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/aveeno"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="349dp" />
+
+
+            <TextView
+                android:id="@+id/haircaretxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hair"
+                android:textColor="#7C4A42"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="154dp"
+                tools:layout_editor_absoluteY="290dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
