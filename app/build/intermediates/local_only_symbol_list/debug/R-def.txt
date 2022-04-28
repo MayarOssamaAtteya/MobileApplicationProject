@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array classes_names
 color black
 color purple_200
 color purple_500
@@ -51,12 +52,9 @@ id album_description_view
 id button
 id button2
 id button3
-id button4
-id button5
-id button6
-id button7
 id cartbtn
 id checkout_button
+id classes
 id cleanserText
 id cleanser_button
 id emailInp
@@ -65,16 +63,12 @@ id haircaretxt
 id hyal
 id hylauText
 id hylau_button
-id imageView
-id imageView2
-id imageView3
 id imageView4
-id imageView5
-id imageView6
-id imageView7
+id img
 id linear1
 id linear2
 id login_login
+id mRecyclerView
 id moist
 id moistText
 id moist_button
@@ -87,14 +81,10 @@ id text
 id textView
 id textView2
 id textView3
-id textView4
-id textView5
-id textView6
 id textView7
-id textView8
-id textView9
 id textViewp
 id textViewu
+id txtview
 id water
 id waterText
 id water_button
@@ -106,6 +96,7 @@ layout home
 layout layout
 layout login
 layout marz
+layout recycler_view_row
 layout signup
 layout skin_care
 mipmap ic_launcher

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+            "outputFile": "C:\\Users\\Omar\\AndroidStudioProjects\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mega Store\\.gradle\\caches\\transforms-3\\f791586eb8e3cddcf33fb36842d7675a\\transformed\\appcompat-1.4.1\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Omar\\.gradle\\caches\\transforms-3\\f791586eb8e3cddcf33fb36842d7675a\\transformed\\appcompat-1.4.1\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mayar\\AndroidStudioProjects\\SignUp\\app\\src\\main\\res\\values-ar\\strings.xml",
-                    "from": {
-                        "startLines": "3,9,6,10,11,12,4,7,5,8",
-                        "startColumns": "8,8,8,8,8,8,8,8,8,8",
-                        "startOffsets": "63,390,235,450,515,568,121,288,181,336",
-                        "endColumns": "56,58,51,63,51,64,58,46,52,52",
-                        "endOffsets": "111,440,278,505,558,624,171,326,225,380"
-                    },
-                    "to": {
-                        "startLines": "37,42,45,60,94,96,98,99,100,102",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3124,3558,3767,4853,7573,7701,7844,7899,7942,8092",
-                        "endColumns": "52,54,47,59,47,60,54,42,48,48",
-                        "endOffsets": "3172,3608,3810,4908,7616,7757,7894,7937,7986,8136"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Mega Store\\.gradle\\caches\\transforms-3\\8c8bd08bd5ab439882315c15d3205b6b\\transformed\\material-1.5.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Omar\\.gradle\\caches\\transforms-3\\8c8bd08bd5ab439882315c15d3205b6b\\transformed\\material-1.5.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Mega Store\\.gradle\\caches\\transforms-3\\02483169c4c9e0ddffa88758188ac6f1\\transformed\\core-1.7.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Omar\\AndroidStudioProjects\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "from": {
+                        "startLines": "3,9,6,10,11,12,4,7,5,8",
+                        "startColumns": "8,8,8,8,8,8,8,8,8,8",
+                        "startOffsets": "63,390,235,450,515,568,121,288,181,336",
+                        "endColumns": "56,58,51,63,51,64,58,46,52,52",
+                        "endOffsets": "111,440,278,505,558,624,171,326,225,380"
+                    },
+                    "to": {
+                        "startLines": "37,42,45,60,94,96,98,99,100,102",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3124,3558,3767,4853,7573,7701,7844,7899,7942,8092",
+                        "endColumns": "52,54,47,59,47,60,54,42,48,48",
+                        "endOffsets": "3172,3608,3810,4908,7616,7757,7894,7937,7986,8136"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Omar\\.gradle\\caches\\transforms-3\\02483169c4c9e0ddffa88758188ac6f1\\transformed\\core-1.7.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

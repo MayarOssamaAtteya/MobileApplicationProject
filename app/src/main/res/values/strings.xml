@@ -9,6 +9,14 @@
     <string name="mobilenum">Mobile Number : </string>
     <string name="pass">Password : </string>
     <string name="reenter">Re-Enter Password :</string>
+    <string-array name="classes_names">
+        <item>PANTINE</item>
+        <item>ELVIVE</item>
+        <item>SEVICH</item>
+        <item>SHISEIDO</item>
+        <item>AVENOO</item>
+        <item>GIOVANNI</item>
+    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

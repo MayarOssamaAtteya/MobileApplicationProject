@@ -108,6 +108,10 @@
         "source": "C:\\Users\\Omar\\AndroidStudioProjects\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_favorite_24.png"
     },
     {
+        "merged": "C:\\Users\\Omar\\AndroidStudioProjects\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_view_row.xml.flat",
+        "source": "C:\\Users\\Omar\\AndroidStudioProjects\\app\\src\\main\\res\\layout\\recycler_view_row.xml"
+    },
+    {
         "merged": "C:\\Users\\Omar\\AndroidStudioProjects\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_add_shopping_cart_24.png.flat",
         "source": "C:\\Users\\Omar\\AndroidStudioProjects\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_add_shopping_cart_24.png"
     },

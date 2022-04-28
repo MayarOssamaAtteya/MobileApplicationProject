@@ -63,6 +63,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array classes_names
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2652,10 +2653,6 @@ id bounceStart
 id button
 id button2
 id button3
-id button4
-id button5
-id button6
-id button7
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2679,6 +2676,7 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
+id classes
 id cleanserText
 id cleanser_button
 id clear_text
@@ -2784,13 +2782,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
-id imageView2
-id imageView3
 id imageView4
-id imageView5
-id imageView6
-id imageView7
+id img
 id immediateStop
 id included
 id info
@@ -2817,6 +2810,7 @@ id linear2
 id listMode
 id list_item
 id login_login
+id mRecyclerView
 id masked
 id match_constraint
 id match_parent
@@ -3022,12 +3016,7 @@ id textTop
 id textView
 id textView2
 id textView3
-id textView4
-id textView5
-id textView6
 id textView7
-id textView8
-id textView9
 id textViewp
 id textViewu
 id text_input_end_icon
@@ -3055,6 +3044,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtview
 id unchecked
 id uniform
 id unlabeled
@@ -3250,6 +3240,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_view_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
