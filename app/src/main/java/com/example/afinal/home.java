@@ -49,7 +49,7 @@ public class home extends AppCompatActivity implements View.OnClickListener{
 
     }
     public void broadcastIntent (View view){
-        Intent intent = new Intent( );
+        Intent intent = new Intent();
         intent.setAction("com.example.afinal.AIRPLANE_MODE");
         sendBroadcast (intent);
     }
