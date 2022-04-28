@@ -55,7 +55,7 @@ public class login extends AppCompatActivity {
 
                 NotificationManagerCompat managerCompat = NotificationManagerCompat.from(login.this);
                 managerCompat.notify(1, builder.build());
-                Intent intent = new Intent(getApplicationContext(),rec.class);
+                Intent intent = new Intent(getApplicationContext(),home.class);
                 String text="Welcome "+user.getText().toString();
                 intent.putExtra("string",text);
                 startActivity(intent);
