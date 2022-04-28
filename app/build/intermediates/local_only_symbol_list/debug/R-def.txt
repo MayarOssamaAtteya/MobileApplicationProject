@@ -58,6 +58,7 @@ id classes
 id cleanserText
 id cleanser_button
 id emailInp
+id hText
 id haircareimg
 id haircaretxt
 id hyal
@@ -84,6 +85,7 @@ id textView3
 id textView7
 id textViewp
 id textViewu
+id tot
 id txtview
 id water
 id waterText

@@ -21,9 +21,6 @@
         <activity
             android:name="com.example.afinal.mody"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.afinal.MainActivity"

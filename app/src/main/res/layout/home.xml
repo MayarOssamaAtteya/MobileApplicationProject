@@ -30,7 +30,6 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-
     <ImageButton
         android:id="@+id/cartbtn"
         android:layout_width="64dp"

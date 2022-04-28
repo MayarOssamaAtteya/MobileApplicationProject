@@ -6,137 +6,138 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml
+8-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml
+9-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:5:5-57:19
+11-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:5:5-59:19
 12        android:allowBackup="true"
-12-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Omar\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\Mega Store\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:10:9-35
+18-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.Final" >
-20-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:11:9-43
+20-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:11:9-43
 21        <activity
-21-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:12:9-14:40
+21-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:12:9-16:20
 22            android:name="com.example.afinal.mody"
-22-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:13:13-33
-23            android:exported="false" />
-23-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:14:13-37
-24        <activity
-24-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:15:9-23:20
-25            android:name="com.example.afinal.MainActivity"
-25-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:16:13-41
-26            android:exported="true" >
-26-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:17:13-36
-27            <intent-filter>
-27-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:19:17-69
-28-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:21:17-77
-30-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity
-33-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:24:9-27:36
-34            android:name="com.example.afinal.home"
-34-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:25:13-33
-35            android:exported="true"
-35-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:26:13-36
-36            android:label="home" />
-36-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:27:13-33
-37        <activity
-37-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:28:9-31:35
-38            android:name="com.example.afinal.rec"
-38-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:29:13-32
-39            android:exported="true"
-39-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:30:13-36
-40            android:label="rec" />
-40-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:31:13-32
-41        <activity
-41-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:32:9-35:38
-42            android:name="com.example.afinal.signup"
-42-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:33:13-35
-43            android:exported="true"
-43-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:34:13-36
-44            android:label="signup" />
-44-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:35:13-35
-45        <activity
-45-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:36:9-40:58
-46            android:name="com.example.afinal.login"
-46-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:37:13-34
-47            android:exported="true"
-47-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:38:13-36
-48            android:label="login"
-48-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:39:13-34
-49            android:parentActivityName="com.example.afinal.MainActivity" />
-49-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:40:13-55
-50        <activity
-50-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:41:9-44:40
-51            android:name="com.example.afinal.skincare"
-51-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:42:13-37
-52            android:exported="true"
-52-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:43:13-36
-53            android:label="skincare" />
-53-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:44:13-37
-54        <activity
-54-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:45:9-48:40
-55            android:name="com.example.afinal.haircare"
-55-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:46:13-37
-56            android:exported="true"
-56-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:47:13-36
-57            android:label="haircare" />
-57-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:48:13-37
-58
-59        <receiver
-59-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:50:9-56:20
-60            android:name="com.example.afinal.AirplaneModeChangeReceiver"
-60-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:51:13-55
-61            android:exported="true" >
-61-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:52:13-36
-62            <intent-filter>
-62-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:53:13-55:29
-63                <action android:name="android.intent.action.AIRPLANE_MODE" />
-63-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:54:17-85
-63-->C:\Users\Omar\AndroidStudioProjects\app\src\main\AndroidManifest.xml:54:25-75
-64            </intent-filter>
-65        </receiver>
-66
-67        <provider
-67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Omar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-68            android:name="androidx.startup.InitializationProvider"
-68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Omar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-69            android:authorities="com.example.afinal.androidx-startup"
-69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Omar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-70            android:exported="false" >
-70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Omar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-71            <meta-data
-71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Omar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Omar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-73                android:value="androidx.startup" />
-73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Omar\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-74            <meta-data
-74-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Omar\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-75-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Omar\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-76                android:value="androidx.startup" />
-76-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Omar\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-77        </provider>
-78    </application>
-79
-80</manifest>
+22-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:13:13-33
+23            android:exported="true" >
+23-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:14:13-36
+24        </activity>
+25        <activity
+25-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:17:9-25:20
+26            android:name="com.example.afinal.MainActivity"
+26-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:18:13-41
+27            android:exported="true" >
+27-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:19:13-36
+28            <intent-filter>
+28-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:21:17-69
+29-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:23:17-77
+31-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:26:9-29:36
+35            android:name="com.example.afinal.home"
+35-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:27:13-33
+36            android:exported="true"
+36-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:28:13-36
+37            android:label="home" />
+37-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:29:13-33
+38        <activity
+38-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:30:9-33:35
+39            android:name="com.example.afinal.rec"
+39-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:31:13-32
+40            android:exported="true"
+40-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:32:13-36
+41            android:label="rec" />
+41-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:33:13-32
+42        <activity
+42-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:34:9-37:38
+43            android:name="com.example.afinal.signup"
+43-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:35:13-35
+44            android:exported="true"
+44-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:36:13-36
+45            android:label="signup" />
+45-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:37:13-35
+46        <activity
+46-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:38:9-42:58
+47            android:name="com.example.afinal.login"
+47-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:39:13-34
+48            android:exported="true"
+48-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:40:13-36
+49            android:label="login"
+49-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:41:13-34
+50            android:parentActivityName="com.example.afinal.MainActivity" />
+50-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:42:13-55
+51        <activity
+51-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:43:9-46:40
+52            android:name="com.example.afinal.skincare"
+52-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:44:13-37
+53            android:exported="true"
+53-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:45:13-36
+54            android:label="skincare" />
+54-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:46:13-37
+55        <activity
+55-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:47:9-50:40
+56            android:name="com.example.afinal.haircare"
+56-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:48:13-37
+57            android:exported="true"
+57-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:49:13-36
+58            android:label="haircare" />
+58-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:50:13-37
+59
+60        <receiver
+60-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:52:9-58:20
+61            android:name="com.example.afinal.AirplaneModeChangeReceiver"
+61-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:53:13-55
+62            android:exported="true" >
+62-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:54:13-36
+63            <intent-filter>
+63-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:55:13-57:29
+64                <action android:name="android.intent.action.AIRPLANE_MODE" />
+64-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:56:17-85
+64-->C:\Users\mayar\AndroidStudioProjects\SignUp\app\src\main\AndroidManifest.xml:56:25-75
+65            </intent-filter>
+66        </receiver>
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+70            android:authorities="com.example.afinal.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mega Store\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mega Store\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>
